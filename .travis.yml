@@ -1,0 +1,16 @@
+language: python
+
+  python:
+
+   - 3.5
+
+
+before_script:
+  python manage.py runserver &
+
+script:
+  coverage run manage.py tests
+  coverage run functional_tests.py
+
+after_script:
+  coveralls
