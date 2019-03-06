@@ -1,6 +1,14 @@
 language: python
+env:
+  - DJANGO=1.4
+  - DJANGO=1.5
+  - DJANGO=1.6
 python:
-      - "3.6.5"
+  - "2.6"
+  - "2.7"
+install:
+  - sudo pip install Django==$DJANGO
+  - sudo pip install .
 script:
-      - python manage.py test
-
+  - cd autotest
+  - python manage.py test ...
