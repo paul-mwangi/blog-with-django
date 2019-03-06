@@ -1,12 +1,6 @@
 language: python
-
 python:
-
-   - 3.5
-
-
-before_script:
-  python manage.py runserver &
-
+      - "3.6.5"
 script:
-  coverage run manage.py tests
+      - python manage.py test
+
