@@ -10,7 +10,3 @@ before_script:
 
 script:
   coverage run manage.py tests
-  coverage run functional_tests.py
-
-after_script:
-  coveralls
