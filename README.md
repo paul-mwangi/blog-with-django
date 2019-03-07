@@ -9,4 +9,5 @@ Simply put, when we say a blog, you are able to visualize the end goal of the tu
     <p>Django 1.11.4 and php 3.5<p><br>
 <p>Regards</p>
     - Paul Mwangi<br>
-    [![Build Status](https://travis-ci.com/paul-mwangi/blog-with-django.svg?branch=master)](https://travis-ci.com/paul-mwangi/blog-with-django)  
+    
+[![Build Status](https://travis-ci.com/paul-mwangi/blog-with-django.svg?branch=master)](https://travis-ci.com/paul-mwangi/blog-with-django)  
